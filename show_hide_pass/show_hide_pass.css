@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.loginBox{
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow:0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.checkbox-row{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+.checkbox-row label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #444;
+}
